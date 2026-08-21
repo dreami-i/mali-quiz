@@ -300,6 +300,41 @@ button.retry-btn:hover { background: rgba(245, 185, 66, 0.1); }
   .summary-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
+/* ---------- QUIZ SCREEN: WHITE / ORANGE THEME ---------- */
+.app.quiz-view {
+  background: #ffffff;
+  color: #241505;
+}
+.app.quiz-view .topbar { color: #b45309; }
+.app.quiz-view .topbar .brand .dot { background: #ff7a29; box-shadow: 0 0 8px rgba(255, 122, 41, 0.6); }
+.app.quiz-view .linklike { border-color: rgba(255, 122, 41, 0.35); color: #b45309; }
+.app.quiz-view .linklike:hover { border-color: #ff7a29; color: #ff7a29; }
+
+.app.quiz-view .progress-label { color: #b45309; }
+.app.quiz-view .progress-label b { color: #ff7a29; }
+.app.quiz-view .segments span { background: rgba(255, 122, 41, 0.15); }
+.app.quiz-view .segments span.done { background: #ff7a29; }
+.app.quiz-view .segments span.fail { background: var(--red); }
+
+.app.quiz-view .q-card {
+  background: #fff6ee;
+  border: 1px solid rgba(255, 122, 41, 0.28);
+  box-shadow: 0 0 0 1px rgba(255, 122, 41, 0.06), 0 20px 60px -20px rgba(255, 122, 41, 0.3);
+}
+.app.quiz-view .q-tag { color: #d9660b; }
+.app.quiz-view .q-text { color: #241505; }
+
+.app.quiz-view .hint-toggle { border-color: rgba(255, 122, 41, 0.45); color: #d9660b; }
+.app.quiz-view .hint-toggle:hover { background: rgba(255, 122, 41, 0.1); }
+.app.quiz-view .hint-box { background: rgba(255, 122, 41, 0.1); border-color: rgba(255, 122, 41, 0.35); color: #b45309; }
+
+.app.quiz-view .option { background: #ffffff; border: 1px solid rgba(255, 122, 41, 0.22); color: #241505; }
+.app.quiz-view .option:hover:not(:disabled) { border-color: #ff7a29; background: rgba(255, 122, 41, 0.08); }
+.app.quiz-view .option .idx { color: #ff7a29; border-color: rgba(255, 122, 41, 0.45); }
+
+.app.quiz-view button.prev-btn { border-color: rgba(255, 122, 41, 0.4); color: #d9660b; }
+.app.quiz-view button.prev-btn:hover:not(:disabled) { border-color: #ff7a29; color: #ff7a29; background: rgba(255, 122, 41, 0.1); }
+
 /* ---------- MODAL ---------- */
 .modal-overlay {
   position: fixed; inset: 0; background: rgba(3, 6, 12, 0.72);

@@ -267,7 +267,7 @@ export default function HomePage() {
   const letters = ["A", "B", "C", "D", "E"];
 
   return (
-    <div className="app">
+    <div className={`app${view === "quiz" ? " quiz-view" : ""}`}>
       <div className="confetti-layer" ref={confettiRef} />
       <div className="topbar">
         <div className="brand">
